@@ -1,0 +1,23 @@
+# Looping over a List using for loop
+my_list = [10, 20, 30, 40]
+print("List elements:")
+for item in my_list:
+    print(item)
+
+# Looping over a Tuple using for loop
+my_tuple = ("apple", "banana", "cherry")
+print("\nTuple elements:")
+for item in my_tuple:
+    print(item)
+
+# Looping over a Dictionary using for loop
+my_dict = {"name": "Alice", "age": 25, "city": "Delhi"}
+print("\nDictionary elements (key:value):")
+for key in my_dict:
+    print(key, ":", my_dict[key])
+
+# Looping over a Set using for loop
+my_set = {100, 200, 300, 400}
+print("\nSet elements:")
+for item in my_set:
+    print(item)

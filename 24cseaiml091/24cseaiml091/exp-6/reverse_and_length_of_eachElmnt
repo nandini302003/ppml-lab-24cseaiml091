@@ -1,0 +1,6 @@
+
+fruits = ["Apple", "Banana", "Cherry", "Mango", "Pineapple", "Orange"]
+
+print("Fruits from last to first with their lengths:\n")
+for fruit in reversed(fruits):
+    print(f"{fruit} - Length: {len(fruit)}")

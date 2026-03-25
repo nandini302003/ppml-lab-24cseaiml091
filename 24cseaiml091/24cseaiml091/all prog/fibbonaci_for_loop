@@ -1,0 +1,17 @@
+fibonacci = [0, 1]
+
+for i in range(100):
+    next_num = fibonacci[-1] + fibonacci[-2]
+    if next_num > 1000:
+        break
+    fibonacci.append(next_num)
+
+print(fibonacci)
+
+sum_even = 0
+for num in fibonacci:
+    if num % 2 == 0:
+        sum_even = sum_even + num
+
+print(sum_even)
+

@@ -1,0 +1,17 @@
+# List of Celsius values
+celsius_list = [0, 20, 37, 100]
+
+# Fahrenheit conversion formula: F = (C * 9/5) + 32
+fahrenheit_list = []
+
+print("Celsius to Fahrenheit conversion:")
+
+for celsius in celsius_list:
+    fahrenheit = (celsius * 9/5) + 32
+    fahrenheit_list.append(fahrenheit)
+    print(f"{celsius}°C = {fahrenheit}°F")
+
+print("\nConverted Fahrenheit list:")
+print(fahrenheit_list)
+
+

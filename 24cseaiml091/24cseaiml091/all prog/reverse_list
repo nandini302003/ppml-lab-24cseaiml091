@@ -1,0 +1,8 @@
+# Create a list of fruits
+fruits = ["apple", "banana", "mango", "orange", "grapes"]
+
+# Display elements from last index to first index
+print("Fruits from last to first with their lengths:")
+
+for fruit in range(len(fruits) - 1, -1, -1):
+    print(fruits[fruit], ":", len(fruits[fruit]))                  
